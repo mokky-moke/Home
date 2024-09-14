@@ -24,7 +24,3 @@ nextButton.addEventListener('click', () => {
     showImage(currentIndex);
 });
 
-document.getElementById('tehnick').addEventListener('click', function() {
-    var subcategoryList = document.getElementById('subcategory1');
-    subcategoryList.classList.toggle('active');
-});
