@@ -123,7 +123,7 @@
 
 .content {
     display: grid;
-    grid-template-columns: 40% 35% 25%;
+    grid-template-columns: 55% 20% 25%;
     height: 100vh;
   }
 
@@ -131,36 +131,60 @@
 
 .contLeft{
     display: grid;
-	grid-template-columns: 77% 23%;
+	grid-template-columns: 20% 65% 15%;
+	/* column-gap: 2%; */
 }
 
 
-.big-img{
-	background-color: #1D5B63;
-	
+.Lsmall-img img{
+	width: 95%;
+	height: 19.9vh;
+	border-style: solid;
+	border-radius: 10%;
 }
 
 
-.small-img{
+.big-img img{
+	width: 95%;
+	height: 103.3vh;
+	border-style: solid;
+	border-radius: 5%;
+	justify-content: center;
+}
+
+
+.Rsmall-img{
 	display: flex;
 	flex-direction: column;
+	display: grid;
+	/* row-gap: ; */
+}
+
+.Rsmall-img img{
+	width: 95%;
+	border-style: solid;
+	border-radius: 10%;
 }
 
 
 
 .contCenter{
-    background-color: black;
+    background-color: rgb(248, 247, 247);
 	display: grid;
-	grid-template-rows: 16% 16% 16% 16% 16% 16%;
+	grid-template-rows: 3% 16% 16% 16% 16% 16%;
+	border-style: solid;
+}
+
+.company{
+	background-color: rgb(194, 239, 245);
+	width: 13%;
+	text-align: center;
+	border-radius: 10%;
+	margin-left: 10%;
 }
 
 
-.test1{
-	background-color: black;
-}
-
-
-.test2{
+/* .test2{
 	background-color: rgb(254, 252, 252);
 }
 
@@ -182,11 +206,12 @@
 .test6{
 	background-color: rgb(254, 252, 252);
 }
-
+ */
 
 
 .contRight{
-	background-color: #1D5B63;
+	/* background-color: #1D5B63; */
+	
 }
 
 
