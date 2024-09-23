@@ -23,7 +23,7 @@
 .inBlock button{
 	width: 7%;
 	height: 5vh;
-	border-color: black;
+	border: solid black;
 	border-radius: 10px;
 	background-color: white;
 }
@@ -45,37 +45,10 @@
 
 
 
-.news {
-	position: relative;
-	left: 70px;
-	bottom: 10px;
-	width: 90%;
-	margin-top: 1%;
-  }
-  
-
-
-.news img{
-	width: 70%;
-	height: 30vh;
-}
 
 
 
-.news button{
-	width: 5%;
-	height: 8vh;
-}
 
-
-
-.news {
-  position: relative;
-  left: 70px;
-  bottom: 10px;
-  width: 90%;
-  margin-top: 1%;
-}
 
 
 
@@ -118,6 +91,33 @@
 
 
 
+.exit{
+	background-color: aquamarine;
+	width: 30%;
+	height: 5vh;
+	margin-top: 2%;
+	border-style: solid;
+	border-color: rgb(0, 255, 255);
+	border-radius: 20px;
+}
+
+.exit:hover{
+	background-color: rgb(58, 247, 184);
+	border-color: rgb(0, 255, 247);
+}
+
+.exit:active{
+	background-color: rgb(59, 245, 183);
+	border-color: azure;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -125,96 +125,138 @@
     display: grid;
     grid-template-columns: 55% 20% 25%;
     height: 100vh;
+	margin-top: 2%;
   }
 
 
 
 .contLeft{
     display: grid;
-	grid-template-columns: 20% 65% 15%;
-	/* column-gap: 2%; */
+	grid-template-columns: 20% 64% 16%;
+	/* column-gap: 1%; */
+	justify-content: space-evenly;
 }
 
 
+/* .Lsmall-img{
+	border-style: solid;
+	border-color: greenyellow;
+} */
+
 .Lsmall-img img{
-	width: 95%;
+	width: 85%;
 	height: 19.9vh;
 	border-style: solid;
 	border-radius: 10%;
+	margin-left: 12%;
 }
 
 
+.big-img{
+	display: grid;
+	justify-content: center;
+}
+
 .big-img img{
-	width: 95%;
-	height: 103.3vh;
+	width: 90%;
+	height: 101.8vh;
 	border-style: solid;
 	border-radius: 5%;
-	justify-content: center;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
 
 .Rsmall-img{
-	display: flex;
-	flex-direction: column;
 	display: grid;
-	/* row-gap: ; */
+	justify-content: center;
 }
 
 .Rsmall-img img{
-	width: 95%;
+	width: 12vh;
+	height: 14.7vh;
 	border-style: solid;
 	border-radius: 10%;
+	margin-right: 20%;
 }
 
 
 
 .contCenter{
-    background-color: rgb(248, 247, 247);
 	display: grid;
-	grid-template-rows: 3% 16% 16% 16% 16% 16%;
-	border-style: solid;
+	grid-template-rows: 3% 10% 3% 40%;
 }
 
 .company{
 	background-color: rgb(194, 239, 245);
-	width: 13%;
+	width: 24%;
 	text-align: center;
-	border-radius: 10%;
+	border-radius: 10px;
 	margin-left: 10%;
+	margin-top: 2%;
 }
 
-
-/* .test2{
-	background-color: rgb(254, 252, 252);
+.description{
+	text-align: left;
+	border-radius: 10%;
+	margin-left: 5%;
+	margin-top: 2%;
+	width: 80%;
+	font-size: 1.5em;
 }
 
-
-.test3{
-	background-color: black;
+.rating{
+	margin-left: 5%;
+	margin-top: 5%;
 }
 
-
-.test4{
-	background-color: rgb(254, 252, 252);
+.harackteristica{
+	background-color: #dcf5f6;
+	display: grid;
+	border-radius: 10px;
+	justify-content: space-between;
+	margin-top: 10%;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-left: 5%;
 }
-
-.test5{
-	background-color: black;
-}
-
-
-.test6{
-	background-color: rgb(254, 252, 252);
-}
- */
 
 
 .contRight{
-	/* background-color: #1D5B63; */
-	
+	display: grid;
+	justify-content: center;
+	/* border-style: solid; */
+
+}
+.inShop{
+	display: grid;
+	justify-content: center;
+	background-color: #b1f2f2;
+	width: 300px;
+	height: 20vh;
+	margin-top: 17%;
+	border-radius: 20px;
 }
 
+.inShop button{
+	background-color: aquamarine;
+	display: grid;
+	justify-content: center;
+	width: 200px;
+	height: 5vh;
+	border: 2px solid aliceblue;
+	border-radius: 10px;
+	/* border-color: #f3f5f5;
+	box-shadow: none;
+	outline: none; */ 
+}
 
-
-
+.inShop button:hover{
+	background-color: #2ABCBC; 
+ 	border-color:#289096;
+}
+.inShop button:active {
+	background-color: aquamarine; 
+	border-color: aliceblue;	
+}
 
