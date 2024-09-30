@@ -12,7 +12,9 @@
 	width: 100%;
 	align-items: center;
 	justify-content: space-around;
+	align-content: flex-start;
 }
+
 
 .inBlock input{
 	width: 40%;
@@ -35,10 +37,13 @@
 	background-color: #5dd9c2; 	
 }
 
-.inBlock img{
-	width: 15%;
-	height: 10vh;
+.inBlock a img{
+	width: 40%;
+	height: 20vh;
 }
+
+
+
 
 
 
@@ -90,26 +95,6 @@
 
 
 
-
-.exit{
-	background-color: aquamarine;
-	width: 30%;
-	height: 5vh;
-	margin-top: 2%;
-	border-style: solid;
-	border-color: rgb(0, 255, 255);
-	border-radius: 20px;
-}
-
-.exit:hover{
-	background-color: rgb(58, 247, 184);
-	border-color: rgb(0, 255, 247);
-}
-
-.exit:active{
-	background-color: rgb(59, 245, 183);
-	border-color: azure;
-}
 
 
 
@@ -234,7 +219,6 @@
 	background-color: #b1f2f2;
 	width: 300px;
 	height: 20vh;
-	margin-top: 17%;
 	border-radius: 20px;
 }
 
