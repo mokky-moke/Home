@@ -59,7 +59,7 @@
  }
 
 .choice button{
-	width: 10%;
+	width: 200px;
 	height: 5vh;
 	border-color: black;
 	border-radius: 10px;
@@ -160,7 +160,7 @@
 }
 
 .product button{
-	width: 33%;
+	width: 200px;
 	height: 4vh;
 	border-radius: 7px;
 	margin-top: 3%;
