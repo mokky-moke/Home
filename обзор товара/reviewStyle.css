@@ -118,15 +118,11 @@
 .contLeft{
     display: grid;
 	grid-template-columns: 20% 64% 16%;
-	/* column-gap: 1%; */
 	justify-content: space-evenly;
 }
 
 
-/* .Lsmall-img{
-	border-style: solid;
-	border-color: greenyellow;
-} */
+
 
 .Lsmall-img img{
 	width: 85%;
